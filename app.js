@@ -31,7 +31,7 @@ const win = ()=>{
 }
 
 const lose = ()=>{
-    text.innerHTML = "You Loosed ! ";
+    text.innerHTML = "You Lost ! ";
     text.style.color = 'red';
     text2.innerHTML = text.innerHTML;
     text2.style.color = 'red';
